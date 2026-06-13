@@ -26,4 +26,4 @@ def delete_user(id):
         finally:
             cursor.close()
             conn.close()
-# delete_user(2)
+delete_user(2)
