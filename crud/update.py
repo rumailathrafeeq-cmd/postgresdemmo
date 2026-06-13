@@ -22,4 +22,4 @@ def table_update(id,new_name):
         finally:
             cursor.close()
             conn.close()
-table_update('zeba',2)
+# table_update('zeba',2)
